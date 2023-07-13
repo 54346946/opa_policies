@@ -1,10 +1,8 @@
-package app.rabc
+package app.rbac
 
 import future.keywords.contains
 import future.keywords.if
 import future.keywords.in
-
-import data.ulteam
 
 # By default, deny requests.
 default allow := false
@@ -27,7 +25,7 @@ user_is_admin if {
     some user in io.jwt.decode(input.token)
 
 	# `role` assigned an element of the user_roles for this user...
-	some role in ulteam.user_roles[user.unique_name]
+	some role in data.user_roles[user.unique_name]
 
     role == "admin"
 }
@@ -38,8 +36,8 @@ user_is_granted contains grant if {
     some user in io.jwt.decode(input.token)
 
 	# `role` assigned an element of the user_roles for this user...
-	some role in ulteam.user_roles[user.unique_name]
+	some role in data.user_roles[user.unique_name]
 
 	# `grant` assigned a single grant from the grants list for 'role'...
-	some grant in ulteam.role_grants[role]
+	some grant in data.role_grants[role]
 }
