@@ -1,0 +1,34 @@
+{
+    "ulteam": {
+		"user_roles": {
+			"xxxxxx@my.ibm.com": [
+				"admin"
+			],
+			"mayyie@my.ibm.com": [
+				"Dev Team",
+				"Upstream Leadership Team"
+			],
+			"ashish.sharma@PETHLAB.COM": [
+				"Dev Team"
+			],
+			"yoke.peng.tan@my.ibm.com": [
+				"Upstream Leadership Team"
+			],
+			"mashaofei@cn.ibm.com": [
+				"Dev Team"
+			]
+		},
+		"role_grants": {
+			"Dev Team": [
+				{
+					"action": "write"
+				}
+			],
+			"Upstream Leadership Team": [
+				{
+					"action": "read"
+				}
+			]
+		}
+	}
+}
