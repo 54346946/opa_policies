@@ -21,6 +21,9 @@
 		"Dev Team": [
 			{
 				"action": "write"
+			},
+			{
+				"action": "think"
 			}
 		],
 		"Upstream Leadership Team": [
