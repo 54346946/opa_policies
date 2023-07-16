@@ -4,32 +4,29 @@
 			"admin"
 		],
 		"mayyie@my.ibm.com": [
-			"Dev Team",
-			"Upstream Leadership Team"
+			"Dev_Team",
+			"Upstream_Leadership_Team"
 		],
 		"ashish.sharma@PETHLAB.COM": [
-			"Dev Team"
+			"Dev_Team"
 		],
 		"yoke.peng.tan@my.ibm.com": [
-			"Upstream Leadership Team"
+			"Upstream_Leadership_Team"
 		],
 		"mashaofei@cn.ibm.com": [
-			"Dev Team"
+			"Dev_Team"
 		]
 	},
 	"role_grants": {
-		"Dev Team": [
+		"Dev_Team": [
 			{
 				"action": "write"
 			},
 			{
 				"action": "think"
-			},
-			{
-				"action": "handle"
 			}
 		],
-		"Upstream Leadership Team": [
+		"Upstream_Leadership_Team": [
 			{
 				"action": "read"
 			}
