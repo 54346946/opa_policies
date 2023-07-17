@@ -5,18 +5,18 @@ import future.keywords.if
 import future.keywords.in
 
 # By default, deny requests.
-default allow := false
+default res := false
 
 # Allow admins to do anything.
-allow if user_is_admin
+res if user_is_admin
 
 # Allow the action if the user is granted permission to perform the action.
-allow if {
+res if {
 	input.action == "nothing"
 }
 
 # Allow the action if the user is granted permission to perform the action.
-allow if {
+res if {
 	# Find grants for the user.
 	some grant in user_is_granted
 
