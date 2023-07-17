@@ -3,9 +3,7 @@
 # system.authz as follows:
 package system.authz
 
-default allow := false
-
-# default allow := true
+default allow := true
 
 # import future.keywords.in
 
