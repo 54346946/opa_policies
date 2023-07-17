@@ -22,7 +22,6 @@ allow if {
 
 	# Check if the grant permits the action.
 	input.action == grant.action
-	# input.type == grant.type
 }
 
 # user_is_admin is true if "admin" is among the user's roles as per roles.user_roles
