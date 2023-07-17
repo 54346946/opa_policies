@@ -4,9 +4,3 @@
 package system.authz
 
 default allow := true
-
-# default allow := false 
-
-# allow {
-#     input.identity == "ul-secret-token"
-# }
