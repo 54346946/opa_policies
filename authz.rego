@@ -3,10 +3,10 @@
 # system.authz as follows:
 package system.authz
 
-# default allow := true 
+default allow := true
 
-default allow := false 
+# default allow := false 
 
-allow {
-    input.identity == "ul-secret-token"
-}
+# allow {
+#     input.identity == "ul-secret-token"
+# }
