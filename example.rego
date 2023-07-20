@@ -10,10 +10,10 @@ default allow := false
 # Allow admins to do anything.
 allow if user_is_admin
 
-# Allow the action if the user is granted permission to perform the action.
-allow if {
-	input.action == "nothing"
-}
+# # Allow the action if the user is granted permission to perform the action.
+# allow if {
+# 	input.action == "nothing"
+# }
 
 # Allow the action if the user is granted permission to perform the action.
 allow if {
