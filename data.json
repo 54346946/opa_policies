@@ -21,15 +21,6 @@
 		"Dev_Team": [
 			{
 				"action": "working"
-			},
-			{
-				"action": "running"
-			},
-			{
-				"action": "thinking"
-			},
-			{
-				"action": "testing"
 			}
 		],
 		"Upstream_Leadership_Team": [
