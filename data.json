@@ -20,10 +20,10 @@
 	"role_grants": {
 		"Dev_Team": [
 			{
-				"action": "working!!!!!!!!!"
+				"action": "working"
 			},
 			{
-				"action": "working222222222"
+				"action": "running"
 			}
 		],
 		"Upstream_Leadership_Team": [
