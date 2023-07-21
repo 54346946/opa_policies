@@ -24,6 +24,9 @@
 			},
 			{
 				"action": "running"
+			},
+			{
+				"action": "thinking"
 			}
 		],
 		"Upstream_Leadership_Team": [
