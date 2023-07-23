@@ -20,6 +20,9 @@
 	"role_grants": {
 		"Dev_Team": [
 			{
+				"action": "working"
+			},
+			{
 				"action": "running"
 			},
 			{
