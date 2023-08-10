@@ -11,9 +11,9 @@ default allow := false
 allow if user_is_admin
 
 # Allow the action if the user is granted permission to perform the action.
-allow if {
-	input.action == "nothing"
-}
+# allow if {
+# 	input.action == "nothing"
+# }
 
 # Allow the action if the user is granted permission to perform the action.
 allow if {
